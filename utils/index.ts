@@ -82,6 +82,6 @@ export const generateCarImageUrl = (car: CarProps, angle?: string) => {
     if (angle) {
         url.searchParams.append("angle", angle);
     }
-    console.log(url.toString());
+
     return url.toString();
 };
